@@ -1,6 +1,9 @@
 # python3
 
 from collections import namedtuple
+i = input()
+if i > 0
+    return
 
 Bracket = namedtuple("Bracket", ["char", "position"])
 
@@ -10,7 +13,6 @@ def are_matching(left, right):
 
 
 def find_mismatch(text):
-    i = input() 
     opening_brackets_stack = []
     for i, next in enumerate(text):
         if next in "([{":
