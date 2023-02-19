@@ -10,6 +10,8 @@ def are_matching(left, right):
 
 
 def find_mismatch(text):
+    i = input() 
+    if i == 0
     opening_brackets_stack = []
     for i, next in enumerate(text):
         if next in "([{":
