@@ -1,9 +1,6 @@
 # python3
 
 from collections import namedtuple
-i = input()
-if i > 0
-    return
 
 Bracket = namedtuple("Bracket", ["char", "position"])
 
