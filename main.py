@@ -20,7 +20,7 @@ def find_mismatch(text):
            if not opening_brackets_stack or not are_matching(opening_brackets_stack[-1].char, next):
                 return i+1
             
-            opening_brackets_stac.pop()
+           opening_brackets_stac.pop()
             
     if opening_brackets_stac:
         return opening_brackets_stac[0].position
