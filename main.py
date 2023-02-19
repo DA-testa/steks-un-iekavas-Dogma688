@@ -1,4 +1,5 @@
 # python3
+# Makarskis Maksims 221RDB380 12gr
 
 from collections import namedtuple
 
